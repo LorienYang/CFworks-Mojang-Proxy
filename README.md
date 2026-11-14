@@ -12,7 +12,7 @@
 | `/account` | `api.mojang.com` | 玩家名称查询 UUID；从 1.20.3 起不再使用。 |
 | `/session` | `sessionserver.mojang.com` | 入服校验（`join` / `hasJoined`）及皮肤服务。 |
 | `/services` | `api.minecraftservices.com` | 档案、属性及聊天举报服务。 |
-| `/profiles` | `api.mojang.com` | 玩家档案服务；从 1.21.9 起使用。 |
+| `/profiles` | `api.mojang.com` | 玩家档案服务；从 1.20.9 起使用。 |
 
 Worker 会移除匹配的路径前缀，再将请求转发到源站。例如：
 
